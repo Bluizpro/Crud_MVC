@@ -28,7 +28,7 @@ namespace CrudMVCsql.Models
 
         [Column("valor")]
         [Display(Name = "valor")]
-        public int valor{ get; set; }
+        public double valor{ get; set; }
 
 
 

@@ -49,8 +49,8 @@ namespace CrudMVCsql.Migrations
                         .HasColumnType("int")
                         .HasColumnName("Quantidade");
 
-                    b.Property<int>("valor")
-                        .HasColumnType("int")
+                    b.Property<double>("valor")
+                        .HasColumnType("float")
                         .HasColumnName("valor");
 
                     b.HasKey("Id");
